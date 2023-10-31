@@ -9,9 +9,14 @@ function App() {
 
   // let counter =5
   const addValue = ()=> {
-    counter ++;
+    // counter ++;
     console.log(("clcked", counter));
-    setCounter(counter)
+    setCounter(counter+1)
+    setCounter(counter+1)
+    /* it act as a batch execution for same setCounter() */
+    setCounter(prevCounter => prevCounter+1)
+    setCounter(prevCounter => prevCounter+1)
+    
   }
 
   const removeValue =()=> {

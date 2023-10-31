@@ -14,7 +14,7 @@ const anotherUser = " anuj sahu"
 
 const reactElement = React.createElement(
   'a',
-  {href: 'https://google.com', targer: '_blank'},
+  {href: 'https://google.com', target: '_blank'},
   'click to visit',
   anotherUser
 )
